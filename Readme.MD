@@ -19,15 +19,6 @@ A simple backend API for user registration and login using **ASP.NET Core 8**, *
 - ✅ Protect endpoints with [Authorize] attribute
 - 🧪 Swagger UI for testing APIs
 
-## 📁 Project Structure
-
-/Controllers
-└── AuthController.cs
-/Data
-└── AppDbContext.cs
-Program.cs
-appsettings.json
-
 
 ## 🛠 Setup Instructions
 
