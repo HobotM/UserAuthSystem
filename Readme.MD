@@ -37,7 +37,7 @@ appsettings.json
    cd UserAuthSystem
 
 2. **Add your connection string & JWT key to appsettings.json**
-
+```bash
 "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=UserAuthDb;Trusted_Connection=True;"
 },
@@ -46,16 +46,16 @@ appsettings.json
 }
 
 3. **Install dependencies**
-
+```bash
 dotnet restore
 
 4. **Run migrations**
-
+```bash
 dotnet tool install --global dotnet-ef
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 
 5. **Run migrations**
-
+```bash
 dotnet run
