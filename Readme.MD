@@ -44,19 +44,20 @@ appsettings.json
 "Jwt": {
   "Key": "THIS_IS_A_SECRET_KEY_SHOULD_BE_LONG"
 }
-
+```
 
 3. **Install dependencies**
 ```bash
 dotnet restore
-
+```
 4. **Run migrations**
 ```bash
 dotnet tool install --global dotnet-ef
 dotnet ef migrations add InitialCreate
 dotnet ef database update
-
+```
 
 5. **Run migrations**
 ```bash
 dotnet run
+```
