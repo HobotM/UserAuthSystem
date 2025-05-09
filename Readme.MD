@@ -45,6 +45,7 @@ appsettings.json
   "Key": "THIS_IS_A_SECRET_KEY_SHOULD_BE_LONG"
 }
 
+
 3. **Install dependencies**
 ```bash
 dotnet restore
