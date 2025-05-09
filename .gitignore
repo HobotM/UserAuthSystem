@@ -1,0 +1,33 @@
+
+---
+
+## 🛡️ `.gitignore` (For C# / .NET)
+
+Create a file named `.gitignore` in the root of your project and add:
+
+```gitignore
+## Build artifacts
+bin/
+obj/
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vscode/
+.vs/
+launchSettings.json
+
+## EF Core
+Migrations/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Secrets (optional)
+appsettings.Development.json
